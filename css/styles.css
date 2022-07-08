@@ -1,10 +1,3 @@
-#title{
-  background-color: #ff4c68;
-  color: white;
-}
-.container-fluid{
-  padding: 7% 15%;
-}
 body{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -45,6 +38,13 @@ p{
 .download-button{
 margin: 5% 3% 5% 0;
 }
+
+/* Tittle Section */
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
 /* Tittle Image */
 
 .title-image{
@@ -60,7 +60,7 @@ margin: 5% 3% 5% 0;
 #features{
   position: relative;
   z-index: 1;
-  background-color: #ffff;
+
 }
 .feature-box{
   padding: 5%;
@@ -80,7 +80,7 @@ margin: 5% 3% 5% 0;
 #testimonials{
   /*padding: 7% 15%; Movido a .carousel-item*/
   background-color: #ef8172;
-  color: #ffff;
+  /* color: #ffff; Se elimina porque esta repetido en .colored-section*/
 }
 .testimonial-text{
   font-size: 3rem;
@@ -110,6 +110,11 @@ margin: 5% 3% 5% 0;
   font-size: 3rem;
   line-height: 1.5;
 }
+/* Containers Section */
+.container-fluid{
+  padding: 7% 15%;
+}
+
 .price-text{
   font-size: 3rem;
   line-height: 1.5;
@@ -118,12 +123,23 @@ margin: 5% 3% 5% 0;
   padding: 3% 2%;
 }
 
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+
+}
+.white-section{
+  background-color: #ffff;
+}
+
 /* Call of Action Section */
-#cta{
+/* #cta{
   background-color: #ff4c68;
   font-family: 'Montserrat-Black', sans-serif;
   color: #ffff;
-}
+} */
 .cta-heading{
   font-family: 'Montserrat-Black', sans-serif;
   font-size: 3.5rem;
